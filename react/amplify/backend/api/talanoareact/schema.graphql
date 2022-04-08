@@ -1,0 +1,20 @@
+type Organisation {
+  id: ID
+  name: String
+}
+
+type Notifications @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  type: Int
+  value: String
+}
+
+type Announcements @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String!
+  summary: String
+  body: String!
+  organisations: Organisation
+  status: String
+}
+ 
