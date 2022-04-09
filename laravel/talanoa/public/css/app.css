@@ -875,6 +875,16 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(238 242 255 / var(--tw-bg-opacity));
 }
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+.from-white {
+  --tw-gradient-from: #fff;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 0));
+}
+.to-gray-300 {
+  --tw-gradient-to: #d1d5db;
+}
 .fill-current {
   fill: currentColor;
 }
@@ -1376,4 +1386,3 @@ select {
     padding-right: 2rem;
   }
 }
-
