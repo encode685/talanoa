@@ -25,7 +25,7 @@
     </style>
 </head>
 
-<body class="min-h-screen bg-gradient-to-b from-white to-gray-300">
+<body class="min-h-screen bg-[#F5F5F5]">
     {{ $slot }}
 </body>
 
